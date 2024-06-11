@@ -24,11 +24,7 @@ body {
     width: 50em;
 }
 
-@media (max-width:760px) {
-    .container {
-        width: 90%;
-    }
-}
+
 
 .heading {
     color: #fff;
@@ -153,5 +149,17 @@ body {
     }
     .special-btn:hover {
         opacity: 0.75;
+    }
+}
+
+@media (max-width: 375px){
+    .container{
+        height: 100%;
+    }
+}
+
+@media (max-width:760px) {
+    .container {
+        width: 90%;
     }
 }
